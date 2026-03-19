@@ -1,0 +1,95 @@
+:root {
+	--main-bg: aliceblue;
+	--accent: rebeccapurple;
+	--text-color: black;
+}
+
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Page background */
+html {
+	background-color: var(--main-bg);
+}
+
+/* Body layout */
+body {
+	width: 90%;
+	margin: 0 auto;
+	border: 5px double var(--accent);
+	background-color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	color: var(--text-color);
+}
+
+/* Main content spacing */
+main {
+	padding: 1.5em;
+}
+
+/* Footer */
+footer {
+	border-top: 3px solid var(--accent);
+	padding: 1em 0;
+}
+
+/* Headings */
+h1 {
+	font-size: 150%;
+	color: var(--accent);
+	margin-bottom: .5em;
+}
+
+h2 {
+	font-size: 125%;
+	margin: 1em 0 .5em;
+	clear: left;
+}
+
+h3 {
+	font-size: 115%;
+	margin-bottom: .5em;
+}
+
+/* Text spacing */
+p {
+	margin-bottom: 1em;
+}
+
+blockquote {
+	margin: 0 0 1em 2em;
+}
+
+ul {
+	margin: 0 0 1em 2em;
+}
+
+li {
+	margin-bottom: .35em;
+}
+
+/* Cite styling */
+cite {
+	color: var(--accent);
+	font-style: normal;
+	font-weight: bold;
+}
+
+/* Image float */
+img {
+	float: left;
+	margin: 0 1em 1em 0;
+}
+
+/* Footer text */
+footer p {
+	font-size: 90%;
+	font-weight: bold;
+	text-align: center;
+	margin: .3em 0;
+}
